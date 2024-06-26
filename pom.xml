@@ -25,7 +25,7 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.3.1</version> <!-- Update the version here -->
         <configuration>
-          <!-- Add any necessary configuration here -->
+          <outputDirectory>${project.build.directory}</outputDirectory>
         </configuration>
       </plugin>
     </plugins>
